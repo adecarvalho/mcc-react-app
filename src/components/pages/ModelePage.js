@@ -5,13 +5,13 @@ import { setModeleMcc } from '../../store/actions'
 
 class ModelePage extends React.Component {
 	state = {
-		resistance_ra: '4',
-		coef_c0: '0.1',
-		coef_f: '0.003',
-		tension_uan: '220',
-		courant_ian: '6',
-		courant_ien: '240',
-		vitesse_nn: '2100',
+		resistance_ra: '',
+		coef_c0: '',
+		coef_f: '',
+		tension_uan: '',
+		courant_ian: '',
+		courant_ien: '',
+		vitesse_nn: '',
 		error: ''
 	}
 
